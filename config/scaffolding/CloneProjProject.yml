@@ -18,6 +18,18 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+- serviceName: project.cloneproj.integrations:SoapCRMTest
+  packages:
+  - name: CloneProjProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+- serviceName: project.cloneproj.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:Testops
+  packages:
+  - name: CloneProjProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.cloneproj.streaming.connections:EmbeddedMessaging
   packages:
   - name: CloneProjProject
