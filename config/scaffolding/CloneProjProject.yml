@@ -8,6 +8,7 @@ packages:
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
 - name: WmSalesforceProvider
+  version: 12.0.0.0.25
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 services:
